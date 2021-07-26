@@ -1,0 +1,29 @@
+$white-color: #fff;
+$primary-color: #e7272d;
+$gray-color: #f1f5f8;
+$secondary-color: #A352FF;
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -ms-border-radius: $radius;
+}
+
+//usage: @include shift([property],[duration],[easing]);
+@mixin transition($property: all, $duration: 0.4s, $ease: ease) {
+    transition: $property $duration $ease;
+    -webkit-transition: $property $duration $ease;
+    -moz-transition: $property $duration $ease;
+    -ms-transition: $property $duration $ease;
+}
+
+@mixin flex-position($display, $contet, $items) {
+    display: $display;
+    justify-content: $contet;
+    align-items: $items;
+}

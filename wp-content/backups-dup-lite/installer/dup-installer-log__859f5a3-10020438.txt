@@ -1,0 +1,693 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:17:07
+* VERSION: 1.4.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.21                                |7.3.21
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2021-07-10 02:04:38
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 1.4.2
+DB__________________: 5.7.31
+DB TABLES___________: 45
+DB ROWS_____________: 2,889
+DB FILE SIZE________: 9.89MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.21 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.3.21
+DOC ROOT____________: "E:/wamp64/www/wordpress/Dinner-Club"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/wordpress/Dinner-Club/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/wamp64/www/wordpress/Dinner-Club/Dinner_Club_[HASH]_20210710020438_archive.zip"
+SIZE________________: 85.55MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/wamp64/www/wordpress/Dinner-Club/Dinner_Club_[HASH]_20210710020438_archive.zip"
+SIZE________________: 85.55MBFile timestamp set to Current: 2021-07-10 08:18:43
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 08:18:43 - RUNTIME: 96.3390 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:20:11
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.31 -- Build Server: 5.7.31
+FILE SIZE:	dup-database__[HASH].sql (10.68MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[E:/wamp64/www/wordpress/Dinner-Club/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	2937
+
+wp_actionscheduler_actions: (23)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (3)
+wp_actionscheduler_logs: (63)
+wp_commentmeta: (0)
+wp_comments: (4)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (413)
+wp_postmeta: (1694)
+wp_posts: (267)
+wp_term_relationships: (29)
+wp_term_taxonomy: (42)
+wp_termmeta: (34)
+wp_terms: (42)
+wp_usermeta: (47)
+wp_users: (1)
+wp_wc_admin_note_actions: (31)
+wp_wc_admin_notes: (32)
+wp_wc_category_lookup: (1)
+wp_wc_customer_lookup: (1)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (1)
+wp_wc_order_stats: (1)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (10)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (1)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (10)
+wp_woocommerce_order_items: (1)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wpforms_tasks_meta: (3)
+Removed '132' cache/transient rows
+
+INSERT DATA RUNTIME: 4.0240 sec.
+STEP-2 COMPLETE @ 08:20:15 - RUNTIME: 4.0862 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:20:52
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Dinner Club"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "G:/wamp64/www/restaurant"
+path_new______________: "E:/wamp64/www/wordpress/Dinner-Club"
+siteurl_______________: "http://localhost/wordpress/Dinner-Club"
+url_old_______________: "http://localhost/restaurant"
+url_new_______________: "http://localhost/wordpress/Dinner-Club"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   413][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1694][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   267][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"G:/wamp64/www/restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  2:"G:\/wamp64\/www\/restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  3:"G%3A%2Fwamp64%2Fwww%2Frestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  4:"G:\wamp64\www\restaurant" ========================> "E:/wamp64/www/wordpress/Dinner-Club"
+	SEARCH  5:"G:\\wamp64\\www\\restaurant" =====================> "E:\/wamp64\/www\/wordpress\/Dinner-Club"
+	SEARCH  6:"G%3A%5Cwamp64%5Cwww%5Crestaurant" ================> "E%3A%2Fwamp64%2Fwww%2Fwordpress%2FDinner-Club"
+	SEARCH  7:"//localhost/restaurant" ==========================> "//localhost/wordpress/Dinner-Club"
+	SEARCH  8:"\/\/localhost\/restaurant" =======================> "\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH  9:"%2F%2Flocalhost%2Frestaurant" ====================> "%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+	SEARCH 10:"https://localhost/wordpress/Dinner-Club" =========> "http://localhost/wordpress/Dinner-Club"
+	SEARCH 11:"https:\/\/localhost\/wordpress\/Dinner-Club" =====> "http:\/\/localhost\/wordpress\/Dinner-Club"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club" => "http%3A%2F%2Flocalhost%2Fwordpress%2FDinner-Club"
+--------------------------------------
+SCANNED:	Tables:45 	|	 Rows:2757 	|	 Cells:17163 
+UPDATED:	Tables:5 	|	 Rows:403 	|	 Cells:479 
+ERRORS:		0 
+RUNTIME:	2.748800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:20:55 - RUNTIME: 2.9004 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
